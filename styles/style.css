@@ -1,0 +1,239 @@
+
+
+/**
+*	Default Styles
+*/
+
+body {
+	margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6, input, select, label, a.button, thead, footer p {
+	font-family: 'Montserrat', sans-serif;
+}
+
+p, li {
+	font-family: 'Roboto Slab', serif;
+}
+
+a {
+	text-decoration: none;
+	color: #4CAF50;
+}
+
+a:hover {
+	color: #347536;
+}
+
+input,
+select {
+	padding: 2px 4px;
+	margin-bottom: 12px;
+}
+
+label {
+	margin-bottom: 8px;
+}
+
+table {
+	margin: auto;
+	border-collapse: collapse;
+	border: 2px solid #666;
+}
+
+th, td {
+	border-bottom: 2px solid #666;
+}
+
+thead {
+	background-color: #f2f2f2;
+	font-size: 24px;
+}
+
+th {
+	padding: 12px 24px;
+}
+
+td {
+	padding: 12px 4px;
+}
+
+footer {
+	padding: 8px 0;
+	margin-top: 24px;
+	background-color: #666;
+	color: #fff;
+}
+
+/**
+*	Layout Styles
+*/
+
+.clear {
+	clear: both;
+}
+
+.center {
+	text-align: center;
+}
+
+.right {
+	text-align: right;
+}
+
+.wrapper {
+	max-width: 1024px;
+	margin: auto;
+}
+
+.first {
+	clear: both;
+}
+
+.one-half {
+	width: 50%;
+	margin: auto;
+	float: left;
+}
+
+.one-third {
+	width: 33.33%;
+	margin: auto;
+	float: left;
+}
+
+.two-thirds {
+	width: 66.66%;
+	margin: auto;
+	float: left;
+}
+
+.tool-bar {
+	padding: 12px 8px;
+}
+
+.logout-container,
+.register-button-container,
+.login-button-container {
+	float: right;
+}
+
+.logout-button,
+.register-button,
+.login-button {
+	margin: 8px 0;
+}
+
+.dept-list-container {
+	border: 2px solid #666;
+	border-radius: 12px;
+}
+
+.dept .field-container {
+	float: left;
+	margin-right: 12px;
+}
+
+/**
+*	Typography and Color
+*/
+
+.tool-bar {
+	background-color: #666;
+	color: #fff;
+}
+
+.button {
+	background-color: #4CAF50;
+	border: none;
+	border-radius: 5px;
+	color: #fff;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	-webkit-transition: .4s;
+	transition: .4s;
+}
+
+.button:hover {
+	background-color: #347536;
+	cursor: pointer;
+}
+
+.logout-button,
+.register-button,
+.login-button {
+	padding: 8px 16px;
+	font-size: 12px;
+}
+
+.welcome-msg,
+.status-msg {
+	font-family: 'Montserrat', sans-serif;
+}
+
+.status-msg {
+	color: #f95c5c;
+}
+
+.success-msg {
+	color: #4CAF50;
+}
+
+tbody tr {
+	background-color: #fff;
+	-webkit-transition: .3s;
+	transition: .3s;
+}
+
+tbody tr:hover {
+	background-color: #f2f2f2;
+}
+
+.dept-list-container li {
+	text-transform: uppercase;
+	font-family: 'Montserrat', sans-serif;
+}
+
+/**
+*	Media Queries
+*/
+
+@media only screen and (max-width: 1024px) {
+
+}
+
+@media only screen and (max-width: 960px) {
+	.one-half {
+		float: none;
+		width: 100%;
+	}
+
+	.one-third {
+		float: none;
+		width: 100%;
+	}
+
+	.two-thirds {
+		float: none;
+		width: 100%;
+	}
+}
+
+@media only screen and (max-width: 800px) {
+
+}
+
+@media only screen and (max-width: 600px) {
+
+	th {
+		font-size: 12px;
+	}
+
+	td {
+		font-size: 10px;
+	}
+
+}
